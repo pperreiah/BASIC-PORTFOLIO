@@ -54,8 +54,8 @@ ul{
 	top: 50px;
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: left;
+    padding: 20px 15px;
     text-decoration: none;
     background-color: none;
 }
@@ -69,13 +69,13 @@ ul{
     text-decoration: none;
     background-color: #4aaaa5;
     font-size: 30px;
-    height: 100px;
+    height: 60px;
 }
 
 .container-mid{
 	margin: 0px;
 	float: left;
-	margin-left: 200px;
+	margin-left: 0px;
 	width: 960px;
 	height: 100%;
 	background-color: none;
@@ -126,7 +126,7 @@ nav{
 	border-width: 0px;
 	padding-top: 0px;
 	padding-bottom: 10px;
-	padding-left: 15px;
+	padding-left: 0px;
 	padding-right: 15px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #4aaaa5;	
@@ -159,7 +159,7 @@ nav{
 	border-width: 0px;
 	padding-top: 15px;
 	padding-right: 20px;
-	padding-left: 20px;
+	padding-left: 0px;
 	margin-bottom: 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;		
@@ -188,9 +188,10 @@ nav{
 }
 
 .blockborder{
-	border-bottom-style: solid;
+	/*border-bottom-style: solid;
     border-bottom-color: #4aaaa5;
     border-bottom-width: 15px;
+    float: left;*/
 }
 footer{
 	position: fixed;
